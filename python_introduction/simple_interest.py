@@ -6,5 +6,5 @@ time = 3
 
 interest = principal * rate * time
 
-Print ("The simple interest is:", interest)
+print ("The simple interest is:", interest)
 
