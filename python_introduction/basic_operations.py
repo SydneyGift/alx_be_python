@@ -1,16 +1,16 @@
 #Assign variables to user input
 
-number_1 = int(input("Enter the first number"))
-number_2 = int(input("Enter the second number"))
+number1 = int(input("Enter the first number"))
+number2 = int(input("Enter the second number"))
 
 #Assign variable to various arithmetic operations
 
-sum = number_1 + number_2
-difference = number_1 - number_2
-product = number_1 * number_2
+sum = number1 + number2
+difference = number1 - number2
+product = number1 * number2
 
 #Display the outputs of the operation
 
-print("The sum of", number_1, "and", number_2, "is", sum)
-print("The difference of", number_1, "and", number_2, "is", difference)
-print("The product of", number_1, "and", number_2, "is", product)
+print("The sum of", number1, "and", number2, "is", sum)
+print("The difference of", number1, "and", number2, "is", difference)
+print("The product of", number1, "and", number2, "is", product)
