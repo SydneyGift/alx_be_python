@@ -9,7 +9,7 @@ sum = number_1 + number_2
 difference = number_1 - number_2
 product = number_1 * number_2
 
-#Display the outputs of the operation
+#Display the outputs of the operations
 
 print("The sum of", number_1, "and", number_2, "is", sum)
 print("The difference of", number_1, "and", number_2, "is", difference)
