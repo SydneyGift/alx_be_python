@@ -1,7 +1,7 @@
 #Assign variables
 
 hours = 2
-seconds = hours * 60 * 60
+seconds = hours * 3600
 
 #Output the results of calculation
 
