@@ -1,7 +1,7 @@
 #Assign variables to measurements
 
 length = 10
-width =5
+width = 5
 
 #Calculate area and store in a variable named area
 
