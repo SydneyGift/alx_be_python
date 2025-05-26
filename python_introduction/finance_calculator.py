@@ -1,14 +1,14 @@
 #Ask user for their monthly income and assign it a variable income
 
-income = int(input("Enter your monthly income:"))
+monthly_income = int(input("Enter your monthly income:"))
 
 #Ask user for their total expenses per month and assign it a variable
 
-total_expenses = int(input("Enter your total monthly expenses:"))
+monthly_expenses = int(input("Enter your total monthly expenses:"))
 
 #Calculate monthly savings by subtracting expenses from income
 
-monthly_savings = income - total_expenses
+monthly_savings = monthly_income - monthly_expenses
 
 #Project annual savings with a simple interest of 5%
 
