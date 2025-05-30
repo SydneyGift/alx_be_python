@@ -3,7 +3,9 @@
 size = int(input("Enter the size of the pattern:"))
 
 while size > 0:
-    range_size = size + 1
-    for number in range(1,range_size):
-        print("*" * size)
-    size -= size
+    for rows in range(1,size + 1):
+            print("*", end ="")
+            for columns in range(1,size):
+                print("*", end ="")
+            print()  
+    size -= size 
