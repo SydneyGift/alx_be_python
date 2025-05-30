@@ -3,7 +3,7 @@
 
 task = input("Enter your task:")
 priority = input("Priority (high/medium/low):").lower()
-time_bound = input("Is it time -bound? (yes/no):").lower()
+time_bound = input("Is it time-bound? (yes/no):").lower()
 
 #Use match case to cater for various scenarios based on if they are time bound or not.
 
