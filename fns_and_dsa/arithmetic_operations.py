@@ -1,11 +1,11 @@
 #Define arithmetic operations 
-def perform_operation(num1, num2, operations):
+def perform_operation(num1, num2, operation):
     num1 = float(input("Enter the first number: "))
     num2 = float(input("Enter the second number: "))
-#Define the operation parameters
-    def operations(operation_to_be_performed):
-        operation_to_be_performed = str(input("Which operation would you like to perform? (add, subtract, multiply, divide)")).strip().lower
-        match operation_to_be_performed:
+    operations = str(input("Which operation would you like to perform? (add, subtract, multiply, divide)")).strip().lower
+    
+    #match the various operation parameters
+    match operation:
             case 'add':
                 result = num1 + num2
             case 'subtract':
