@@ -5,13 +5,13 @@ CELSIUS_TO_FAHRENHEIT_FACTOR = 9/5
 #Function to convert degrees fahrenheit to degrees celsius
 def convert_to_celsius(temperature):
     global celsius
-    celsius = temperature * FAHRENHEIT_TO_CELSIUS_FACTOR
+    celsius = (temperature - 32) * FAHRENHEIT_TO_CELSIUS_FACTOR
     return celsius
 
 #Function to convert degrees celcius to fahrenheit
 def convert_to_fahrenheit(temperature):
     global fahrenheit
-    fahrenheit = temperature * CELSIUS_TO_FAHRENHEIT_FACTOR
+    fahrenheit = (temperature * CELSIUS_TO_FAHRENHEIT_FACTOR) + 32
     return fahrenheit
 
 temperature_input = float(input("Enter the temperature to convert: "))
