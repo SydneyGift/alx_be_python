@@ -1,5 +1,5 @@
 #Program to display current date as well as calculate a future date
-import datetime
+from datetime import datetime
 
 #Define a function to display current date and time
 def display_current_datetime():
@@ -12,8 +12,8 @@ display_current_datetime()
 
 #Calculate a future date based on user input.
 number_of_days = int(input("Enter the number of days to add to the current date: "))
-
+#Convert the user input into a duration
 added_days = datetime.timedelta(days = number_of_days)
-print(added_days)
+#Calculate the future date
 future_date = datetime.date.today() + added_days#Using the date only
 print("Future  date: ", future_date.strftime('%Y-%m-%d'))
