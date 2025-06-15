@@ -1,5 +1,8 @@
 #Implementing a division calculator that robustly handles errors like division by zero and non-numeric inputs using command line arguments.
-def safe_divide(float(numerator), float(denominator)):
+def safe_divide(numerator,denominator):
+    float(numerator)
+    float(denominator)
+
     try:
         result = numerator / denominator
         return result
