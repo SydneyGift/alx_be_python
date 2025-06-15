@@ -1,10 +1,8 @@
 #Implementing a division calculator that robustly handles errors like division by zero and non-numeric inputs using command line arguments.
 def safe_divide(numerator,denominator):
-    float(numerator)
-    float(denominator)
-
+    
     try:
-        result = numerator / denominator
+        result = float(numerator) / float(denominator)
         return result
     except ZeroDivisionError:
         return "Error: Cannot divide by zero."
