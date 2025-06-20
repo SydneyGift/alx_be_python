@@ -4,18 +4,24 @@ class Book:
     def __init__(self, title="", author=""):
         self.title = title
         self.author = author
+    def __str__(self):
+       return f"{self.title} by {self.author}."    
 
 #Derived class
 class EBook(Book):
     def __init__(self, title, author, file_size):
         super().__init__(title, author) #Called the parent class constructor
         self.file_size = file_size
+    def __str__(self):
+       return f"{self.title} by {self.author}."
 
 #Derived class
 class PrintBook(Book):
     def __init__(self, title, author, page_count):
         super().__init__(title, author) #Called the parent class constructor
         self.page_count = page_count
+    def __str__(self):
+       return f"{self.title} by {self.author}, of {self.page_count} pages"
 
 class Library:
     def __init__ (self):
