@@ -22,4 +22,4 @@ class Dog(Animal):
 gui = Dog("Treb", "Labrador")
 print(gui.eat())
 print(gui.sleep())
-print(gui.bark())
+gui.bark()
