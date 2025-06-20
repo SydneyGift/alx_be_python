@@ -15,4 +15,4 @@ class Book:
     
 #Use a destructor for object deletion
     def __del__(self):
-       print(f"Deleting ({self.title})")
+       print(f"Deleting {self.title}")
